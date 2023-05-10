@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(246, 208, 203);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.judul_1 {
+    text-align: center;
+    color:black;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+
+#judul_2 {
+    text-align: center;
+    color: grey;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+
+h2 {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    color: bisque;
+}
+
+h4 {
+    color: azure;
+}
+
+p {
+    color: black;
+}
+
+img {
+    width:500px; 
+    height: 500px;
+    border-radius: 100%;
+    border: 20px solid black
+}
+
+.box_image {
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    width: 50%
+}
+
+.mytable {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.baris1 {
+    background-color: darkolivegreen;
+}
+
+.baris2 {
+    background-color: darkkhaki;
+}
+
+.icon{
+    size: 200px;
+}
