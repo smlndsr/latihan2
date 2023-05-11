@@ -4,35 +4,28 @@ body {
     background-size: cover;
 }
 
-.judul_1 {
-    text-align: center;
-    color:red;
-    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
-}
-
-#judul_2 {
-    text-align: center;
-    color: grey;
-    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
-}
-
-h2 {
-    margin-left: 100px;
-    margin-right: 100px;
-    color: black;
+nav li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h3 {
-    color: bisque;
-}
-
-h4 {
-    color: azure;
-}
-
-p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
+    display: inline;
+    align-items: flex-end;
+    text-transform: uppercase;
     color: black;
+    background-color: rgb(250, 250, 250);
+    flex: none;
+    padding: 10px;
+    order: 0;
+    flex-grow: 0;
+}
+nav ul{
+    text-align: right;
+}
+
+nav li a{
+    text-decoration: none;
 }
 
 img {
