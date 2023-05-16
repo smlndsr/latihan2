@@ -1,27 +1,38 @@
 body {
-    background-color: rgb(249, 224, 221);
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.gambarr{
+    max-width: 100px;
+    display: inline;
+    height: auto;
+    border-radius: 100px;
+    align-items: ;
+}
+
 nav li{
-    font-family: cursive;
+    font-family:'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 20px;
     line-height: 30px;
     display: inline;
-    align-items: flex-end;
+    align-items:flex-end;
     text-transform: uppercase;
-    background-color: rgb(239, 182, 182);
     flex: none;
-    padding: 15px;
+    padding: 10px;
     order: 0;
     flex-grow: 0;
-    margin-right: 20px;
+    margin-right: 10px;
+    list-style: none;
 }
 nav ul{
     text-align: right;
+    align-items:self-end;
+    display:flex;
+    vertical-align: none;
 }
 
 nav li a{
@@ -30,36 +41,53 @@ nav li a{
 }
 
 .kotak {
-    width: 100%;
+    width: 870px;
     height: 200px;
-    background-color: whitesmoke;
-    display: flex;
+    background-color: #f1f8fa;
+    padding: 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    line-height: 100%;
+    font-size: 100%;
+    margin-left: 150px;
 }
 
-.gambar{
-    width: 200px;
-    height: 200px;
-    position: absolute;
+h1{
+    font-family: Rubik,sans-serif;
+    text-align:left;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 120%;
+    margin: 0;
+    padding: 0;
 }
 
-.teks{
-    position: absolute;
-    left: 220px;
-    right: 50px;
-    font-weight: bold;
-    font-family: 'Rubik-Bold' !important;
-    color: rgb(72, 71, 71);
+.paragraf1{
+    font-family: Rubik,sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 150px;
+    line-height: 100%;
+    display: block;
 }
-td {
-    border: 1px solid black;
-    width: 50%
+
+.paragraf2{
+    font-family: Rubik,sans-serif;
+    font-size: 20px;
+    font-weight: 150px;
+    line-height: 100%;
+    display: block;
+}
+
+a{
+    color: navy;
+    text-decoration: none;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    color: black
     padding: 10px;
-    text-align: center;
+    text-align: left;
   }
 
 .mytable {
