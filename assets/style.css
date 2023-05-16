@@ -53,7 +53,7 @@ nav li a{
 }
 
 h1{
-    font-family: Rubik,sans-serif;
+    font-family: sans-serif;
     text-align:left;
     font-weight: 300;
     font-size: 35px;
@@ -63,7 +63,7 @@ h1{
 }
 
 .paragraf1{
-    font-family: Rubik,sans-serif;
+    font-family: sans-serif;
     margin-top: 20px;
     font-size: 20px;
     font-weight: 150px;
@@ -72,7 +72,7 @@ h1{
 }
 
 .paragraf2{
-    font-family: Rubik,sans-serif;
+    font-family: sans-serif;
     font-size: 20px;
     font-weight: 150px;
     line-height: 100%;
@@ -83,27 +83,33 @@ a{
     color: navy;
     text-decoration: none;
 }
+.list{
+    background-color: whitesmoke;
+    align-items: flex-end;
+    margin-left: 150px;
+    width: 870px;
+}
+
+h3{
+    font-size: 40px;
+    text-align: center;
+}
+
+h4{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.mytable, th, td{
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
 
 footer {
+    background-color: beige;
     color: black
     padding: 10px;
     text-align: left;
   }
-
-.mytable {
-    width: 100%;
-    margin-top: 100px;
-}
-
-.baris1 {
-    background-color: darkolivegreen;
-}
-
-.baris2 {
-    background-color: darkkhaki;
-}
-
-.icon{
-    size: 10px;
-}
-
