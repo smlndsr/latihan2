@@ -4,6 +4,9 @@ body {
     background-size: cover;
 }
 
+video{
+    width: auto;
+}
 .gambarr{
     max-width: 100px;
     display: inline;
