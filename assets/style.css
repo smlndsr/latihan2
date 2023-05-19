@@ -9,7 +9,6 @@ body {
     display: inline;
     height: auto;
     border-radius: 100px;
-    align-items: ;
 }
 
 nav li{
@@ -110,7 +109,7 @@ h4{
 
 footer {
     background-color: beige;
-    color: black
+    color: black;
     padding: 10px;
-    text-align: left;
-  }
+    text-align:left
+}
